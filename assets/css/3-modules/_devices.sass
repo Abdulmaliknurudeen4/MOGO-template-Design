@@ -1,0 +1,38 @@
+section.section-devices
+  height: 900px
+  background-image: linear-gradient(to top, $brand-white-o, $brand-white-o-secondary), url(../img/backgrounds/mountain2.jpg)
+  background-size: cover, cover
+  background-position: 50% 50%, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  background-blend-mode: normal, normal
+  text-align: center
+
+  .section-header
+    margin-top: 0px
+    background: transparent
+
+  .unique-content
+    margin: 0 30%
+    max-width: 900px
+    position: relative
+    @media screen and (max-width: 800px)
+      margin: 0 0
+      max-width: 800px
+
+    div.main-tablet
+      background: url(../img/backgrounds/tablet.png)
+      background-repeat: no-repeat
+      background-size: contain
+      height: 700px
+      width: 500px
+    div.main-iphone
+      background: url(../img/backgrounds/iphone.png)
+      background-repeat: no-repeat
+      background-size: contain
+      height: 450px
+      width: 300px
+      z-index: 1
+      +position(absolute, 45% 0px 0px 45%)
+      @media screen and (max-width: 800px)
+        +position(absolute, 45% 0px 0px 50%)
+        width: 250px

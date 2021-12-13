@@ -1,0 +1,79 @@
+section.section-happyClients
+  height: 900px
+  background-image: linear-gradient(to top, $brand-white-o, $brand-white-o-secondary), url(../img/backgrounds/mountain2.jpg)
+  background-size: cover, cover
+  background-position: 50% 50%, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  background-blend-mode: normal, normal
+  text-align: center
+  @media screen and (max-width: 1300px)
+    height: 1200px
+  @media screen and (max-width: 750px)
+    height: 1700px
+
+  .section-header
+    margin-top: 0px
+    background: transparent
+
+  .words-holder
+    max-width: 90%
+    margin: 0px auto
+    @extend %flex
+    +flex-direction(row)
+    +flex-wrap(wrap)
+    +justify-content(space-between)
+
+    @media screen and (max-width: 760px)
+      display: block
+      margin: 20px auto
+
+    .word-unit
+      max-width: 40%
+      @media screen and (max-width: 1300px)
+        max-width: 90%
+        margin: 0px auto
+      figure
+        @extend %flex
+        +flex-direction(row)
+        +justify-content(space-around)
+        +align-content(center)
+
+        img
+          +align-self(flex-start)
+          +size(100px)
+          padding: 50px
+          border-radius: 50%
+          margin: 5px
+
+        figcaption
+          +align-self(flex-start)
+          text-align: left
+          strong
+            display: block
+            @extend %monserrat
+            font-size: 14px
+            font-weight: 500
+            text-transform: uppercase
+            margin: 10px 0px
+          i
+            display: block
+            @extend %Roboto
+            font-weight: lighter
+            margin: 10px 0px
+          hr
+            border-top: 4px solid $brand-peach
+            width: 90px
+            display: inline-block
+
+          p
+            @extend %Roboto
+            color: $brand-gray
+        @media screen and (max-width: 650px)
+          display: block
+          img
+            padding: 0px
+            margin: 5px
+
+          figcaption
+            margin: 0px auto
+            text-align: center

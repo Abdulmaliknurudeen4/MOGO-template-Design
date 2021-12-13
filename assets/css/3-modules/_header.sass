@@ -1,0 +1,144 @@
+header
+  background-image: linear-gradient(to top, $brand-yellow-o, $brand-peach-o), url(../img/backgrounds/#{$bg-image})
+  background-size: cover, cover
+  background-position: 50% 50%, 50% 50%
+  background-repeat: no-repeat, no-repeat
+  background-blend-mode: normal, normal
+  @extend %flex
+  +flex-direction(column)
+  nav
+    height: 100px
+    +order(1)
+    @extend %flex
+    +flex-direction(row)
+    +align-items(center)
+    +justify-content(space-between)
+
+
+    ul
+      @extend %flex
+      +align-items(flex-end)
+      +justify-content(space-around)
+
+      li
+        list-style: none
+        margin: 0px 10px
+        &:last-child
+          margin-right: 40%
+        @extend %monserrat
+        font-size: 15px
+
+      a
+        text-decoration: none
+        color: white
+        padding-bottom: 5px
+        border-bottom: 2px solid transparent
+        +pathColour($brand-white)
+        svg
+          +size(20px)
+
+        &:hover
+          border-bottom: 2px solid $brand-yellow
+          color: $brand-yellow
+          +pathColour($brand-yellow)
+
+
+
+  .header-shot
+    +flex-grow(1)
+    +order(2)
+    text-align: center
+    span
+      display: block
+    button
+      background-color: transparent
+      border: 4px solid white
+      text-transform: uppercase
+      font-weight: 500
+      padding: 10px 20px
+      color: white
+
+
+
+  .header-loader
+    +order(3)
+    // height: 125px
+    height: 150px
+    margin: 0% 10%
+    @extend %flex
+    +flex-wrap(wrap)
+    +flex-direction(row)
+    +align-items(center)
+    +justify-content(space-between)
+    .progress-holder
+      margin: 20px
+      width: 20%
+      color: white
+      .progress-parent
+        width: 100%
+        background-color: white
+        height: 2px
+        .progress-bar
+          // width: 25%
+          background-color: $brand-peach
+          height: 2px
+          margin: 20px 0px
+        .progress-shot
+          text-transform: uppercase
+          b
+            font-weight: 700
+            font-size: 30px
+
+
+.header-section
+  height: 1000px
+.bar
+  width: 65px
+  height: 0px
+  border-top: 4px solid white
+  margin: 0 auto 70px
+.cr-template
+  font-size: 70px
+  @extend %kaushan
+  color: white
+.header-title
+  @extend %monserrat
+  font-size: 30px
+  font-weight: 700
+  margin-left: 10%
+  color: white
+.welcome
+  @extend %monserrat
+  font-size: 130px
+  font-weight: 700
+  line-height: 1
+  text-align: center
+  margin: 50px 0px
+  color: white
+@media (max-width: 800px)
+  header
+    .header-loader
+      +flex-direction(column)
+      +flex-wrap(wrap)
+      +align-items(center)
+      +justify-content(space-around)
+      padding-bottom: 50px
+      .progress-holder
+        align-self: center
+@media screen and (max-width: 500px)
+  header
+    nav
+      display: block
+      margin: 10px auto
+      text-align: center
+
+      ul
+        display: block
+        margin: 10px auto
+        +clearfix
+
+        li
+          float: left
+          margin: 5px
+          &:last-child
+            margin-right: 20px

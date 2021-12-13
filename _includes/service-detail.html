@@ -1,0 +1,53 @@
+<section id="service_details" class="section-service_detail">
+
+  <div class="section-header">
+    <span>Service</span>
+    <strong>What we do</strong>
+    <hr class="bar">
+  </div>
+
+  <div class="service-content">
+
+    <p class="service-shot">{{site.data.portfolio.serviceDetail-shot}}</p>
+
+          <div class="content-container">
+                <div class="img-holder"></div>
+                  <div class="skill-lockup">
+                          {% for item in site.data.portfolio.service-accordion %}
+                          <div class="desc-holder"><span>{% include icons/{{item.icons}} %}</span> <h3>{{item.title}}</h3></div>
+                          <div class="skill-unit">{{item.text}}</div>
+                          {% endfor %}
+                  </div>
+          </div>
+
+  </div>
+
+  <div class="service-footer">
+
+        <div class="clients-mobile-nav">
+              {% for item in site.data.portfolio.service-quotes %}
+              <span></span>
+              {% endfor %}
+        </div>
+
+      <div class="client-controls">
+        <div class="client-control-next">{% include icons/icons-next.html %}</div>
+        <div class="client-control-prev">{% include icons/icons-previous.html %}</div>
+      </div>
+
+            <div class="client-quote-belt">
+                        {% for item in site.data.portfolio.service-quotes %}
+                          <div class="quote-unit">
+                            <span>{% include icons/icons-chat.html %}</span>
+                            <div class="shot">
+                              <p>{{item.text}}</p>
+                              <hr>
+                              <strong>{{item.user}}</strong>
+                            </div>
+                          </div>
+                        {% endfor %}
+                  </div>
+  </div>
+
+
+</section>

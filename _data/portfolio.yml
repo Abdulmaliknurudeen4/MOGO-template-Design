@@ -1,0 +1,159 @@
+#user variables
+title: MOGO Re-Templating
+email: abdulmaliknurudeen4@gmail.com
+description: Thinker // Designer // Programmer // Engineer
+header-title: MoGo
+bg-image: 'banner.png'
+main-shot: 'Creative Template'
+welcome-shot: 'WELCOME<br> TO MOGO'
+user-name: 'Nurudeen Abdulmalik'
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+# Menu LIST
+menu:
+- {name: ABOUT, url: '#about'}
+- {name: SERVICE, url: '#service'}
+- {name: WORK, url: '#work'}
+- {name: BLOG, url: '#blog'}
+- {name: CONTACT, url: '#contact'}
+#MENU LIST SVG ICONS
+svgmenu:
+- {name: 'icons-search.html', url: '#iconsearch'}
+- {name: 'icons-cart.html', url: '#iconcart'}
+#HEADER PROGRESS
+headerprogress:
+- {text: '<b>01</b> intro', percentage: '25%'}
+- {text: '<b>02</b> Work', percentage: '0%'}
+- {text: '<b>03</b> About', percentage: '30%'}
+- {text: '<b>04</b> Contacts', percentage: '10%'}
+
+#About Section Data
+about-shot: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+  lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
+thumb-units:
+- {name: 'Awesome WorkSpace', backgroundImage: 'story-1.png', icons: 'icons-workspace.html'}
+- {name: 'Amazing Developers', backgroundImage: 'story-2.png', icons: 'icons-userprofile.html'}
+- {name: 'Super Team', backgroundImage: 'story-1.png', icons: 'icons-star.html'}
+
+bottom-shots:
+- {shothead: '12', shotbottom: 'Happy Clients'}
+- {shothead: '22', shotbottom: 'Award Winner'}
+- {shothead: '90', shotbottom: 'CuP of Coffee'}
+- {shothead: '23', shotbottom: 'Members'}
+- {shothead: '52', shotbottom: 'Web Designs'}
+
+#Service Section Data
+shotblocks:
+- {title: 'Photography', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-photo.html'}
+- {title: 'Web Design', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-webdesign.html'}
+- {title: 'SEO', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-googleweb.html'}
+- {title: 'hr', text: '', icons: 'icons-googleweb.html'}
+- {title: 'CSS/HTML', text: ' consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-code.html'}
+- {title: 'creativity', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-creativity.html'}
+- {title: 'digital', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-monitor.html'}
+
+#Service Details Section Data
+service-quotes:
+- {user: 'John Doe', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Sara Jons', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Catricna 3', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Apple Gable', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Isearl Cpe', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+
+
+service-accordion:
+- {title: 'Photography', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed dosed do,consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-photo.html'}
+- {title: 'Creativity', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed dosed do,consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-creativity.html'}
+- {title: 'Photography', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed dosed do,consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do', icons: 'icons-webdesign.html'}
+
+serviceDetail-shot: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+  lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+
+#Our Team Data Section
+team-shot: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+  lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+team-members:
+- {user: 'John Doe', image: 'team-1.png', title: 'UI/UX Designer'}
+- {user: 'Sara John', image: 'team-2.png', title: 'Web Designer'}
+- {user: 'Isreal Cpe', image: 'team-3.png', title: 'Graphics Designer'}
+
+team-logos:
+- {logoname: 'lockdown-5.png'}
+- {logoname: 'lockdown-1.png'}
+- {logoname: 'lockdown-2.png'}
+- {logoname: 'lockdown-3.png'}
+- {logoname: 'lockdown-4.png'}
+- {logoname: 'lockdown-6.png'}
+#Work Section Data
+work-shot: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+  lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+work-content:
+- {shot: 'Creatively ReDesigned', image: 'work-1.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-photo-30px.html'}
+- {shot: 'Creatively Designed', image: 'work-2.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-photo-30px.html'}
+- {shot: 'Creatively ReImagined', image: 'work-3.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-think-30px.html'}
+- {shot: 'Creatively Imagined', image: 'work-4.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-think-30px.html'}
+- {shot: 'Creatively ReStyled', image: 'work-5.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-css-30px.html'}
+- {shot: 'Creatively Styled', image: 'work-1.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-css-30px.html'}
+- {shot: 'Awesomely Challenged', image: 'work-6.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-trophy-30px.html'}
+- {shot: 'Excellently Photographed', image: 'work-3.png', bottomShot: 'Bottom shot Goes Here', icons: 'icons-camera-30px.html'}
+
+work-quotes:
+- {user: 'John Doe', image: 'creator-3.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Sara Jons', image: 'creator-2.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Catricna 3', image: 'creator-1.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Apple Gable', image: 'creator-3.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+- {user: 'Isearl Cpe', image: 'creator-4.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do'}
+# Happy Clients Seciton
+happy-Clients:
+- {user: 'John Doe', title: 'Programmer', image: 'creator-3.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed doconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do '}
+- {user: 'Sara Jons', title: 'Artist', image: 'creator-2.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do coconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do '}
+- {user: 'Catricna 3', title: 'Creator', image: 'creator-1.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do '}
+- {user: 'Apple Gable', title: 'Designer', image: 'creator-3.jpg', text: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed dconsectetur adipiscing elit, sed do consectetur adipiscing elit, sed do '}
+#Blog Data section
+blog-block:
+- {day: '05', month: 'Jan', title: 'Chasing the Yeti', image: 'blog-prev-1.png', subtitle: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, consectetur adipiscing elit', views: '65', comments: '67'}
+- {day: '15', month: 'Feb', title: 'Finding Purpose', image: 'blog-prev-2.png', subtitle: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit,  consectetur adipiscing elit', views: '95', comments: '61'}
+- {day: '25', month: 'Aug', title: 'Grinding Harder', image: 'blog-prev-3.png', subtitle: 'consectetur adipiscing elit, sed do consectetur adipiscing elit, sed do consectetur adipiscing elit, consectetur adipiscing elit', views: '14', comments: '08'}
+#Footer content
+social-content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do
+  lore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+number-followers: '18.5K'
+
+footer-Icons:
+- {icon: 'icons-facebook-25px.html' }
+- {icon: 'icons-instagram-25px.html' }
+- {icon: 'icons-pinterest-25px.html' }
+- {icon: 'icons-googleplus-25px.html' }
+- {icon: 'icons-youtube-25px.html' }
+- {icon: 'icons-dribble-25px.html' }
+- {icon: 'icons-tumblr-25px.html' }
+- {icon: 'icons-twitter-25px.html' }
+
+blog-prev:
+- {image: 'blog-1.png', title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', date: 'Feb 9, 2021'}
+- {image: 'blog-2.png', title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', date: 'Aug 3, 2019'}
+- {image: 'blog-3.png', title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', date: 'Sept 29, 2020'}
+
+insta-shots:
+- {path: 'insta-1.png'}
+- {path: 'insta-2.png'}
+- {path: 'insta-3.png'}
+- {path: 'insta-4.png'}
+- {path: 'insta-5.png'}
+- {path: 'insta-6.png'}
+- {path: 'insta-7.png'}
+- {path: 'insta-8.png'}
+- {path: 'insta-9.png'}

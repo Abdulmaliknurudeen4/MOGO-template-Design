@@ -1,0 +1,29 @@
+<header class="header-section">
+    <nav>
+      <span class="header-title">{{site.data.portfolio.header-title}}</span>
+      <ul>
+        {% for item in site.data.portfolio.menu %}
+          <li><a href="{{item.url}}">{{item.name}}</a></li>
+        {% endfor %}
+        {% for item2 in site.data.portfolio.svgmenu %}
+          <li><a href="{{item2.url}}">{% include icons/{{item2.name}} %}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="header-shot">
+      <span class="cr-template">{{site.data.portfolio.main-shot}}</span>
+      <span class="welcome">{{site.data.portfolio.welcome-shot}}</span>
+      <hr class="bar">
+      <button type="button" name="button">Learn More</button>
+    </div>
+<div class="header-loader">
+  {% for progressitem in site.data.portfolio.headerprogress %}
+  <div class="progress-holder">
+    <div class="progress-parent">
+      <div class="progress-bar" style="width:{{progressitem.percentage}}"></div>
+      <span class="progress-shot">{{progressitem.text}}</span>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</header>

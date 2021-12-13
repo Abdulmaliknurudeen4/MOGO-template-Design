@@ -1,0 +1,125 @@
+section.section-ourteam
+  height: 1300px
+  background: $brand-white
+  @media screen and (max-width: 1170px)
+    height: 2600px
+
+  .section-header
+    background: $brand-white
+
+  .ourteam-story
+    +flex-grow(2)
+    max-width: 90%
+    margin: 0px auto
+    //Testing if The Display Flex will solve the issue
+    @extend %flex
+    +flex-direction(column)
+
+    p.team-shot
+      margin-bottom: 50px
+
+    .image-holder
+      @extend %flex
+      +flex-direction(row)
+      +justify-content(space-around)
+      +align-items(flex-start)
+      +perspective(300)
+      //Attaching The Flex Grow To the Element
+      +flex-grow(1)
+
+      @media screen and (max-width: 1100px)
+        display: block
+
+      .thumb-holder
+        text-align: center
+        width: 30%
+        @media screen and(max-width: 1100px)
+          width: 50%
+          margin: 20px auto
+        //The Thumb card-overlay holder icons are appear rubbishly
+        @media screen and(max-width: 650px)
+          width: 75%
+          margin: 20px auto
+
+        .thumb-unit
+          position: relative
+          //The Padding is responsible for the image size
+          padding: 50% 50%
+          margin: 0px auto
+          text-align: center
+          &:before
+            content: ''
+            opacity: 0
+
+          @media screen and (max-width: 1100px)
+            padding: 50% 30%
+
+          .card-overlay
+            color: $brand-gray
+            @extend %flex
+            +flex-direction(row)
+            +justify-content(center)
+            +align-items(center)
+            +position(absolute, 0px 20px 20px 0px)
+            margin: -10px 0px 0px -10px
+            @extend %accent-gradient
+            opacity: 0
+            transform: rotateY(180deg)
+
+            span
+              svg
+                +size(60px)
+                //Preventing outerspacing with devtools
+              +pathColour($brand-peach)
+              +size(60px)
+              background: $brand-yellow
+              &:hover
+                +pathColour($brand-white)
+                background: $brand-peach
+
+          &:hover
+            .card-overlay
+              animation: rotateY180 500ms forwards
+
+            &:before
+              @extend %blue-gradient
+              +position(absolute, 0px 10px 10px 0px)
+              width: 100%
+              height: 100%
+              animation: rotateY180Translate 500ms forwards 100ms
+
+        strong
+          margin-top: 20px
+          color: black
+          display: block
+          @extend %monserrat
+          text-transform: uppercase
+          font-weight: 500
+
+        span
+          margin-top: 10px
+          color: $brand-gray
+          display: block
+          @extend %Roboto
+          text-transform: capitalize
+          font-weight: lighter
+
+
+  .ourteam-footer
+    +flex-grow(1)
+    background: $brand-gray-tertiary
+
+    .icons-lockdown
+      @extend %flex
+      +flex-direction(row)
+      +flex-wrap(nowrap)
+      margin: 100px 5%
+      +justify-content(space-around)
+      +align-items(center)
+
+      @media screen and (max-width: 800px)
+        +flex-wrap(wrap)
+        div
+          margin: 20px auto
+          background-repeat: no-repeat
+          +size(160px)

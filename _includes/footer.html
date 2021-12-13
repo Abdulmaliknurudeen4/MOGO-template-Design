@@ -1,0 +1,65 @@
+<footer class="footer-openmap">
+
+  <div class="footer-header">
+    <span>{% include icons/icons-location-30px.html %}</span>
+    <strong>Open Map</strong>
+    <hr class="bar">
+  </div>
+
+  <div class="footer-content">
+
+      <div class="footer-social">
+        <span class="title">MoGo</span>
+        <span class="content">{{site.data.portfolio.social-content}}</span>
+        <span class="follower">{{site.data.portfolio.number-followers}} <span>follower</span></span>
+        <hr>
+
+        <i>Follow Us:</i> <div class="social-icons">
+          {% for item in site.data.portfolio.footer-Icons %}
+          <span>{% include icons/{{item.icon}} %}</span>
+          {% endfor %}
+        </div>
+
+        <div class="submit-form">
+          <input type="text" name="" value="" placeholder="Enter Your Email">
+          <button type="button" name="button">subscribe</button>
+        </div>
+      </div>
+
+        <div class="footer-blogs">
+        <span class="title"> BLOG</span>
+        <div class="preview-holder">
+
+        {% for item in site.data.portfolio.blog-prev %}
+          <div class="blog-preview">
+            <img src="assets/img/aboutImages/{{item.image}}" alt="blog-post-image">
+
+                <div class="blog-about">
+                  <span class="blog-title">{{item.title}} </span>
+                  <span class="blog-date">{{item.date}}</span>
+                </div>
+
+          </div>
+
+          {% endfor %}
+
+        </div>
+
+        </div>
+
+    <div class="footer-instashot">
+      <span class="title">Instagram</span>
+      <div class="image-grid">
+        {% for item in site.data.portfolio.insta-shots %}
+        <img src="assets/img/aboutImages/{{item.path}}" alt="post-image" class="post-preview">
+        {% endfor %}
+      </div>
+      <i><a href="#">View More Photos</a></i>
+    </div>
+
+      </div>
+
+  <hr class="footer-line">
+  <span class="footer-copy"> &copy; 2016 MoGo free Template by <span>{{site.data.portfolio.user-name}}</span></span>
+
+</footer>

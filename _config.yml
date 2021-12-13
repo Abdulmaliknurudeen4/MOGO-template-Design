@@ -1,0 +1,10 @@
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+port: 9009
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+bg-image: 'banner.png'
