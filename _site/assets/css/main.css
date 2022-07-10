@@ -720,7 +720,8 @@ footer.footer-openmap .footer-copy, footer.footer-openmap .footer-content .foote
   font-family: Montserrat; }
 
 section.section-works .work-footer .work-quote-belt .Wqoute-unit .shot strong, section.section-service_detail .service-footer .client-quote-belt .quote-unit .shot strong, section .section-header span, .cr-template {
-  font-family: KaushanScript-Regular; }
+  font-family: KaushanScript-Regular; 
+}
 
 section.section-works .work-belt .work-holder .card-overlay, section.section-ourteam .ourteam-story .image-holder .thumb-holder .thumb-unit .card-overlay, section .about-story .image-holder .thumb-unit .card-overlay {
   background: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)); }
@@ -2612,5 +2613,10 @@ footer.footer-openmap {
     footer.footer-openmap .footer-copy span {
       color: #f38181;
       font-weight: bold; }
+#muhalat{
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: large;
+}
 
 /*# sourceMappingURL=main.css.map */
